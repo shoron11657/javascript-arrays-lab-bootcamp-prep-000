@@ -7,5 +7,5 @@ function destructivelyRemoveFirstKitten(){return kittens.shift()}
 function appendKitten() {return [...kittens, "Broom"]}
 function prependKitten() {return ["Arnold", ...kittens]}
 
-function removeLastKitten(kitten){return kittens.slice(0,-1)}
+function removeLastKitten(){return kittens.slice(0,-1)}
 function removeFirstKitten(kitten){return kittens.slice(1)}
